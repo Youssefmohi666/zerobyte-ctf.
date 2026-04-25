@@ -55,7 +55,7 @@ USERS = {
 VIRTUAL_FS = {
     "/":            {"type": "dir",  "perm": "drwxr-xr-x"},
     "/pub":         {"type": "dir",  "perm": "drwxr-xr-x"},
-    "/pub/readme":  {"type": "file", "perm": "-rw-r--r--", "content": b"Welcome to Metasploitable 2 FTP\n"},
+    "/pub/readme":  {"type": "file", "perm": "-rw-r--r--", "content": b"0BYTE{$FLAG$_-001.2_FTP_HACKED:)}\n"},
     "/incoming":    {"type": "dir",  "perm": "drwxrwxrwx"},
     "/etc":         {"type": "dir",  "perm": "drwxr-xr-x"},
     "/etc/passwd":  {"type": "file", "perm": "-rw-r--r--",
